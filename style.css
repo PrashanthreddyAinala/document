@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-columns: 20% auto;
+  }
+  
+  h3 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid black;
+    border-right: 2px solid gray;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+  
+  table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 40em;
+    overflow: scroll;
+  }
+  
+  tr {
+    border-top: 1px solid black;
+  }
+  
+  .list {
+    list-style-type: none;
+    background-color: lightgray;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .section {
+    padding: 5px;
+    font-size: 1.5em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .content-section {
+    margin-left: 1.5em;
+  }
+  
+  .main-section {
+    margin-left: 0;
+    position: fixed;
+  }
