@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="./style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <body>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-md-3">
         <div id="main-doc">
-          <section class="main-section">
+          <div class="main-section">
             <h3>JS Documentation</h3>
             <table>
               <tr>
@@ -55,9 +61,11 @@
                 <td class="section"><a href="#reference">Reference</a></td>
               </tr>
             </table>
-          </section>
           </div>
-          <div class="content-section">
+          </div>
+        </div>
+        <div class="col-md-8 ml-0">
+          <div class="content-section ">
             <h1 id="introduction">Introduction</h1>
             <p id="para">JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
             <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
@@ -79,8 +87,8 @@
             <h1 id="hello">Hello World</h1>
             <p id="para">To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
             <ul class="list">
-            <li>function greetMe(yourName) { alert("Hello " + yourName); }</li>
-            <li>greetMe("World");</li>
+              <li>function greetMe(yourName) { alert("Hello " + yourName); }</li>
+              <li>greetMe("World");</li>
             </ul>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
             <h1 id="variables">Variables</h1>
@@ -217,6 +225,8 @@
               <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
             </ul>
           </div>
-      </body>
+          </div>
+      </div>
+    </div>
 </body>
 </html>
